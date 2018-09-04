@@ -4,47 +4,139 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Home - HomeAnswers</title>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">    
         <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700" rel="stylesheet">
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
     </head>
-    <body>
-        <header>
-            <div id="header">
-                 <div class="container">
-                    <img src="images/dropbox.png" alt="logo" id="topImg">                     
-                    <div id="topNav">
-                        <a href="">About us</a> |
-                        <a href="">Take a tour</a> |
-                        <a href="">Testimonials</a>
-                        <div class="search-container">
-                            <form action="/action_page.php">
-                              <input type="text" placeholder="Search.." name="search">
-                              <button type="submit">Submit</button>
-                            </form>
-                                                       
-                         </div>                        
-                    </div>                    
-                     
-                 </div><!-- top-->
-                <div id="mainMenu">
-                  <ul>
-                        <li>HOME SOLUTIONS</li>
-                        <li>PHOTO LIBRARY</li>
-                        <li>ASK A PRO</li>                        
-                  </ul>
-              </div><!-- main menu-->
-            </div> <!-- header-->       
-        </header>
-        <main>
-        
-        </main>
-        <footer>
-        
-        </footer>
+    <body id="mainContainer">
+        <div class="container">
+            <header id="header">
+                <div id="topNav" class="row">                     
+                        <div class="col-sm-3">
+                            <img src="images/dropbox.png" alt="logo" id="topImg">
+                        </div>
+                        <div class="col-sm-4" style="text-align: right; font-size: 13px">                            
+                                <a href="">About us</a> |
+                                <a href="">Take a tour</a> |
+                                <a href="">Testimonials</a>
+                        </div>
+                        <div class="search-container col-sm-5 input-group-btn">
+                                  <input class="form-control" type="text" placeholder="Enter your search" name="search" style="margin:4px 0px 4px 0px"><i class="fa fa-search"></i>
+                                  <button class="btn btn-primary" type="submit" style="background-color: #006DC2;font-weight: 600;margin:4px 0px 4px 0px ">search</button> 
+                         </div> 
+                </div> <!-- topNav-->
+                <div id="mainMenu" class="row">
+                    <div class="col-sm-2"><a href="#">HOME SOLUTIONS</a></div>
+                    <div class="col-sm-2"><a href="#">PHOTO LIBRARY</a></div>
+                    <div class="col-sm-2"><a href="#">ASK A PRO</a></div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-2"><a href="#">My Home Info</a></div>
+                    <div class="col-sm-1"><a href="#">Login</a></div>                    
+                </div><!-- main menu-->
+            </header>
+            <main  id="mainContent">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                        <h5 style="color: #3178B0;font-weight: bold;margin-bottom: 20px">Create your free HomeAnswers account</h5>
+
+                        <p>Sometext Sometext Sometext Sometext</p>
+
+                        <p>Sometext Sometext Sometext Sometext</p>
+
+                        <p>Sometext Sometext Sometext Sometext</p>
+
+                        <h6  style="color: #3178B0;font-weight: bold;margin-bottom: 20px;">Already a Member?</h6>
+                        <form>
+                            <div>
+							     <button type="button" class="btn btn-sm" id="button">MEMBER LOGIN</button>
+						    </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4 border border-white" style="background-color: lightgrey">
+                        <form class="form-horizontal" method="post" action="#" style="padding: 8px">
+                            <div>
+                                <label for="name">First Name</label>
+                                <div>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="firstname" id="firstname"/>
+                                    </div>
+                                </div>
+                            </div>                        
+                            <div>
+                                <label for="name" class="cols-sm-2 control-label">Last Name</label>
+                                <div>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="lastname" id="lastname"/>
+                                    </div>
+                                </div>
+                            </div>    
+
+                            <div>
+                                <label for="email" class="cols-sm-2 control-label">Your Email</label>
+                                <div>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="email" id="email"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="username" class="cols-sm-2 control-label">Username</label>
+                                <div>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="username" id="username"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="password" class="cols-sm-2 control-label">Password</label>
+                                <div>
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" name="password" id="password"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+                                <div>
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" name="confirm" id="confirm"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                              <label><input type="checkbox" value="">Keep me signed in</label>
+                            </div>    
+                            <div>
+                                <div>
+                                     <button type="button" class="col-sm-7 btn btn-sm" id="button">CREATE ACCOUNT</button>
+                                      <button type="button" class="col-sm-4 btn btn-sm" id="buttoncancel">CANCEL</button>    
+                                </div>   
+
+                            </div>                           
+
+                            <div>
+                                <p style="font-size: 10px; margin-top: 16px;">
+                                    <span style="color: #D28C12">*</span>By using HomeAnswers you agree to our <a href="#" style="color: #D28C12">Terms &amp Conditions</a> and <a href="#" style="color: #D28C12">Privacy policy</a>
+                                </p>
+                             </div>
+					   </form>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+
+            </main>
+            <footer>
+
+            </footer>
+        </div>    
     </body>
 
 </html>
