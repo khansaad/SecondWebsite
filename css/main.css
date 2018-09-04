@@ -1,0 +1,95 @@
+/*-- main menu --*/
+#header #mainMenu{
+    position: absolute;
+    /*left: 320px;*/
+    bottom: 0;
+    padding:
+    border-color: gainsboro;    
+    border-bottom: 2px solid grey;    
+}
+
+#top {
+    border-color: gainsboro;
+    border-bottom: 2px solid grey;
+    margin: 2ex 0;
+    
+}
+
+#topNav{
+    font-size: 12px;
+    float:right;
+    margin: ex 0;
+    padding: 0;
+}
+#topNav a{
+    margin: 0 1ex 0 1ex;
+    padding: 0;
+}
+#topNav input[type=text] {
+  border: 1px solid blue;
+  border-radius: 5px;
+  float: right;
+  padding: ;
+  margin-top:;
+  margin-right:;
+  border: 
+  font-size: 12px;
+}
+#topNav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: ;
+  margin-right: ;
+  background: #ddd;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+
+#content div#mainContent {
+   /* float: left;
+    width: 430px;
+    margin: 0;
+    padding: 0 15px;*/
+}
+
+#mainContent p {
+    /*font-family: Georgia, serif;
+    font-size: .9em;
+    line-height: 1.4em;
+    color: #000;
+    margin: 1ex 0;    */
+}
+
+/*
+#mainContent h1, #mainContent h2, #mainContent h3, #mainContent h4{
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#mainContent h1{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #1b9d95;
+    margin: .0ex 0;
+}
+
+#mainContent h2{
+    font-size: 1.2em;
+    color: #3c3809;
+    margin: .4ex 0;
+}
+
+#mainContent h4{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #666;
+    margin: 1ex 0 -.2ex 0;
+}
+
+#mainContent ul{
+    font-family: Georgia, sans-serif;
+    font-size: .9em;
+    margin: 0 0 1.4ex 1em;
+}
+*/
