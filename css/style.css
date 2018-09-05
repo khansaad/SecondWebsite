@@ -4,10 +4,23 @@
     height: 50px;
     padding: 12px;
 }
+#header div a{
+    color: whitesmoke;
+    font-family:sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
 #mainContainer {
-   background-image: url("../images/home_background.jpg"); 
+    background-image: url("../images/home_background.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
+}
+#loginmainContainer{
+    padding: 12px;    
+    border-style: ;
+    background-color: #005CA5;
+    
+    
 }
 #mainContent{
      margin-top: 80px;
@@ -36,6 +49,13 @@
     background-color: #949494;
     color:#FFFFFF;
     box-shadow:0px 0px 40px 0px #AFB4B8;
+}
+#footer{
+    margin-top: 16px;
+    padding: 8px;    
+    border-style: ;
+    background-color: #005CA5;
+    box-shadow:20px 0px 40px 0px grey;
 }
 /*#header {
     position: relative;
