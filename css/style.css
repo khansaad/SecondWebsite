@@ -1,10 +1,25 @@
 /*-- main menu --*/
+#header{
+    padding: 12px;    
+    border-style: ;
+/*    background-color: #0F6BB4;   */
+    
+}
 #topNav{
     background-color: white;
-    height: 50px;
-    padding: 12px;
+    height: 60px;
+    padding: 0px;
 }
-#header div a{
+#topNav a{
+    margin: 0 2ex 0 1ex;
+    
+}
+#loginheader{
+    padding: 12px;    
+    border-style: ;
+    background-color: #0F6BB4;    
+}
+#loginheader a{
     color: whitesmoke;
     font-family:sans-serif;
     font-size: 14px;
@@ -15,13 +30,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-#loginmainContainer{
-    padding: 12px;    
-    border-style: ;
-    background-color: #005CA5;
-    
-    
+
+img.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
+
 #mainContent{
      margin-top: 80px;
 }
@@ -32,7 +47,7 @@
     
     padding: 8px;    
     border-style: ;
-    background-color: #005CA5;
+    background-color: #0F6BB4;
     box-shadow:20px 0px 40px 0px grey;
     
 }
@@ -40,7 +55,7 @@
     color: whitesmoke;
     text-shadow:;
 }
-#button{
+#buttonstyle{
     background-color: #D28C12;
     color:#FFFFFF;
     box-shadow:0px 0px 40px 0px #AFB4B8;
@@ -54,7 +69,7 @@
     margin-top: 16px;
     padding: 8px;    
     border-style: ;
-    background-color: #005CA5;
+    background-color: #0F6BB4;
     box-shadow:20px 0px 40px 0px grey;
 }
 /*#header {
@@ -69,10 +84,7 @@
     margin: ex 0;
     padding: 0;
 }
-#topNav a{
-    margin: 0 1ex 0 1ex;
-    padding: 0;
-}
+
 #topnav .search-container {
   float: right;
   border: 1px solid blue;
